@@ -2,12 +2,21 @@ This is an empty project template
 
 
 
+General info
+
+To just run some code: type python in terminal to switch, indicated by >>>
+
+
+
 Poetry
 
 Start poetry project
 poetry new <project name>
 poetry add <package>
 poetry Install
+
+src folder contains the main code
+tests folder contains tests
 
 
 
@@ -22,10 +31,18 @@ git remote add origin https://github.com/your-username/your-repo-name.git
 git push -u origin master
 
 Create a first branch
-git branch setup_project (setup_project is branch name)
-git checkout setup_project
-git push -u origin setup_project
+git branch <branch_name>
+git checkout <branch_name>
+git push -u origin <branch_name>
+
+git commit -m "<commit name>"
+git push
 
 
 
+Virtual environment
+
+To select your current Python environment in VS Code, use the Command Palette (Ctrl+Shift+P), 
+then search for and select "Python: Select Interpreter." 
+Choose the interpreter that matches your environment (e.g., the one in .venv).
 
