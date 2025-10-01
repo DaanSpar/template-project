@@ -46,3 +46,12 @@ To select your current Python environment in VS Code, use the Command Palette (C
 then search for and select "Python: Select Interpreter." 
 Choose the interpreter that matches your environment (e.g., the one in .venv).
 
+
+
+Debugging
+
+Debugging settings are in launch.json
+This points to the file and venv
+
+
+
