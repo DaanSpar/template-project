@@ -55,3 +55,15 @@ This points to the file and venv
 
 
 
+Testing
+
+see file .vscode/settings.json
+test tab - run all tests
+
+
+
+Jupyter notebook
+
+ctrl shift p --> create jupyter notebook
+save
+select kernel (top right corner notebook, use venv created)

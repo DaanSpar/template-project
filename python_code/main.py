@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 
-def test_fcn():
+def example_fcn():
 
     print("Hello")
 
@@ -10,4 +10,7 @@ def test_fcn():
 
     return
 
-test_fcn()
+def example_fcn_2(x):
+    return x + 1
+
+example_fcn()
